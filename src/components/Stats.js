@@ -13,7 +13,7 @@ export const Stats = () => {
 
   const handleButtonPress = () => {
     // TODO - dispatch the restart action
-    dispatchEvent(game.actions.restart)
+    dispatchEvent(game.actions.restart())
   }
 
   if (winner) {
